@@ -1,8 +1,11 @@
 Docker and Django commands.
 
+Create an app:
 docker-compose run --rm app sh -c "python manage.py startapp 'appname'"
 
+Do migration:
 docker-compose run --rm app sh -c "python manage.py startapp makemigrations"
+
 
 To create a new model.
 
