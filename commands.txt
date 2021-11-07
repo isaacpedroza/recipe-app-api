@@ -14,3 +14,4 @@ To create a new model.
 - Create the Serializer. (Create the endpoint)
 - Create the Viewset.
 - Add the view in the router. (URL)
+- Add tests to create the element.
